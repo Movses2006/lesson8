@@ -1,0 +1,33 @@
+.Card_favourite {
+    background-color: white;
+    border: 1px solid gray;
+    color: black;
+}
+
+.Card_favourite.active {
+    background-color: rgb(255, 0, 0); 
+    border-color: red; 
+    color: white; 
+}
+.Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    max-height: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px hsla(0,0%,82%,.49);
+}
+.Card img{
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    max-height: 300px;
+}
+.cardPage{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto  auto auto;
+    gap: 30px;
+    justify-content: center;
+}

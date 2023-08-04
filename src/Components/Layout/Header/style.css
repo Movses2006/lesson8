@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    max-width:1200px;
+    padding: 20px 30px;
+}
+.nav img{
+    max-width: 50px;
+    max-width: 50px;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+}
+.navlinks a{
+    color:black ;
+    text-decoration: none;
+}
+.navlinks a:active{
+    color:#586ecd ;
+    text-decoration: none;
+    border: 0 0 1px 0 solid #586ecd;
+}
